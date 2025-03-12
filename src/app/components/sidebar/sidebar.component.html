@@ -1,0 +1,42 @@
+<div class="sidebar">
+    <h6>Delivery Day</h6>
+    <label class="custom-radio">
+        <input type="checkbox" (change)="filterByDelivery($event, '2 Days')" /> 
+        <span class="checkmark"></span> Get it in 2 Days
+    </label>
+
+    <h6>Customer Reviews</h6>
+    <label class="custom-radio">
+        <input name="rating" (change)="filterByRating(4)" /> ⭐⭐⭐⭐ & up
+    </label>
+
+    <h6>Brands</h6>
+    <div *ngFor="let brand of uniqueBrands">
+        <label class="custom-radio">
+            <input type="radio" name="brand" (change)="filterByBrand($event, brand)" /> 
+            <span class="checkmark"></span> {{ brand }}
+        </label>
+    </div>
+
+    <h6>Price</h6>
+    <label class="custom-radio">
+        <input type="radio" name="price" [checked]="true" (change)="filterByPrice(0, 0)" />
+        <span class="checkmark"></span> All
+    </label>
+    <label class="custom-radio">
+        <input type="radio" name="price" (change)="filterByPrice(5900, 10000)" /> 
+        <span class="checkmark"></span> ₹5900 - ₹10,000
+    </label>
+    <label class="custom-radio">
+        <input type="radio" name="price" (change)="filterByPrice(10000, 20000)" /> 
+        <span class="checkmark"></span> ₹10,000 - ₹20,000
+    </label>
+    <label class="custom-radio">
+        <input type="radio" name="price" (change)="filterByPrice(20000, 30000)" /> 
+        <span class="checkmark"></span> ₹20,000 - ₹30,000
+    </label>
+    <label class="custom-radio">
+        <input type="radio" name="price" (change)="filterByPrice(30000, 45000)" /> 
+        <span class="checkmark"></span> ₹30,000 - ₹45,000
+    </label>
+</div>

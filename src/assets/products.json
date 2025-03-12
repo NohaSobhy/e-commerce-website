@@ -1,0 +1,167 @@
+[
+    {
+        "id": 1,
+        "category": "Electronics",
+        "title": "Elica 60 cm 1200 m3/hr Filterless Autoclean Kitchen Chimney with 15 Years Warranty (WDFL 606 HAC LT...",
+        "image": "assets/images/products/electronics/e1.png",
+        "rating": 4.6,
+        "reviews": 13204,
+        "purchased": "300+ bought in past month",
+        "price": 12990,
+        "discount": 46,
+        "delivery": "FREE delivery by Sat, 14 Sept, 7:00 am - 9:00 pm",
+        "brand": "Samsung"
+    },
+    {
+        "id": 2,
+        "category": "Electronics",
+        "title": "Godrej 1.5 Ton 3 Star, 5-In-1 Convertible, Inverter Split AC (5 Years warranty, Copper, I-Sense Technology, 2023...",
+        "image": "assets/images/products/electronics/e2.png",
+        "rating": 4.8,
+        "reviews": 610,
+        "purchased": "100+ bought in past month",
+        "price": 32990,
+        "discount": 15,
+        "delivery": "FREE delivery by Sun, 15 Sept, 7:00 am - 9:00 pm",
+        "brand": "LG"
+    },
+    {
+        "id": 3,
+        "category": "Electronics",
+        "title": "LG 28 L Convection Microwave Oven (MC2846BV, Black, Quartz Heater)",
+        "image": "assets/images/products/electronics/e3.png",
+        "rating": 4.1,
+        "reviews": 922,
+        "purchased": "600+ bought in past month",
+        "price": 13490,
+        "discount": 21,
+        "delivery": "FREE delivery by Sun, 15 Sept, 7:00 am - 9:00 pm",
+        "brand": "Haier"
+    },
+    {
+        "id": 4,
+        "category": "Electronics",
+        "title": "Samsung 8 kg, 5 star, Eco Bubble Tech, Digital Inverter Motor, Soft Closing Door, Fully-Automatic Top Load...",
+        "image": "assets/images/products/electronics/e4.png",
+        "rating": 4.7,
+        "reviews": 25405,
+        "purchased": "1k+ bought in past month",
+        "price": 19990,
+        "discount": 26,
+        "delivery": "FREE delivery by Sat, 14 Sept, 7:00 am - 9:00 pm",
+        "brand": "Daikin"
+    },
+    {
+        "id": 5,
+        "category": "Electronics",
+        "title": "Canon EOS 200D DSLR Camera",
+        "image": "assets/images/products/electronics/e5.png",
+        "rating": 4.4,
+        "reviews": 2500,
+        "purchased": "1k+ bought in past month",
+        "price": 58990,
+        "discount": 20,
+        "delivery": "FREE delivery by Tue, 17 Sept, 7:00 am - 9:00 pm",
+        "brand": "Godrej"
+    },
+    {
+        "id": 6,
+        "category": "Electronics",
+        "title": "LG 28 L Convection Microwave Oven",
+        "image": "assets/images/products/electronics/e6.png",
+        "rating": 4.3,
+        "reviews": 922,
+        "purchased": "600+ bought in past month",
+        "price": 13490,
+        "discount": 21,
+        "delivery": "FREE delivery by Sun, 15 Sept, 7:00 am - 9:00 pm",
+        "brand": "IFB"
+    },
+    {
+        "id": 7,
+        "category": "Electronics",
+        "title": "Bose Home Theater System",
+        "image": "assets/images/products/electronics/e7.png",
+        "rating": 4.6,
+        "reviews": 3200,
+        "purchased": "2.5k+ bought in past month",
+        "price": 84990,
+        "discount": 22,
+        "delivery": "FREE delivery by Wed, 18 Sept, 7:00 am - 9:00 pm",
+        "brand": "Panasonic"
+    },
+
+
+
+
+
+    {
+        "id": 13,
+        "category": "Furniture",
+        "title": "Wooden King Size Bed with Storage",
+        "image": "assets/images/bed.png",
+        "rating": 4.5,
+        "reviews": 2200,
+        "purchased": "1.1k+ bought in past month",
+        "price": 28990,
+        "discount": 30,
+        "delivery": "FREE delivery by Sat, 14 Sept, 7:00 am - 9:00 pm"
+    },
+    {
+        "id": 14,
+        "category": "Furniture",
+        "title": "Ergonomic Office Chair with Lumbar Support",
+        "image": "assets/images/chair.png",
+        "rating": 4.4,
+        "reviews": 3100,
+        "purchased": "1.5k+ bought in past month",
+        "price": 12990,
+        "discount": 20,
+        "delivery": "FREE delivery by Sun, 15 Sept, 7:00 am - 9:00 pm"
+    },
+
+
+
+
+
+    {
+        "id": 25,
+        "category": "Headphones",
+        "title": "Sony WH-1000XM4 Noise Cancelling Headphones",
+        "image": "assets/images/sony-headphones.png",
+        "rating": 4.8,
+        "reviews": 5400,
+        "purchased": "3k+ bought in past month",
+        "price": 27990,
+        "discount": 15,
+        "delivery": "FREE delivery by Sat, 14 Sept, 7:00 am - 9:00 pm"
+    },
+    {
+        "id": 26,
+        "category": "Headphones",
+        "title": "Apple AirPods Pro (2nd Gen)",
+        "image": "assets/images/airpods.png",
+        "rating": 4.7,
+        "reviews": 4100,
+        "purchased": "2k+ bought in past month",
+        "price": 24990,
+        "discount": 10,
+        "delivery": "FREE delivery by Sun, 15 Sept, 7:00 am - 9:00 pm"
+    },
+    {
+        "id": 27,
+        "category": "Headphones",
+        "title": "Bose QuietComfort 45 Bluetooth Headphones",
+        "image": "assets/images/bose-qc.png",
+        "rating": 4.6,
+        "reviews": 3200,
+        "purchased": "1.5k+ bought in past month",
+        "price": 34990,
+        "discount": 12,
+        "delivery": "FREE delivery by Mon, 16 Sept, 7:00 am - 9:00 pm"
+    }
+
+
+
+
+]

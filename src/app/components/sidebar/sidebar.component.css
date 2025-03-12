@@ -1,0 +1,52 @@
+h6 {
+    padding-top: 28px;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+}
+
+.custom-radio {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px 0;
+    position: relative;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.custom-radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1.5px solid black;
+    display: inline-block;
+    margin-right: 5px;
+    position: relative;
+}
+
+.custom-radio input:checked+.checkmark {
+    background-color: #1F8394;
+    border-color: #1F8394;
+}
+
+.custom-radio input:checked+.checkmark::after {
+    content: "";
+    width: 9px;
+    height: 9px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
