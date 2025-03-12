@@ -54,25 +54,25 @@
     {
         "id": 5,
         "category": "Electronics",
-        "title": "Canon EOS 200D DSLR Camera",
+        "title": "Samsung 7 kg, Eco Bubble Techn, Digital Inverter Motor, Soft Closing Door, Fully-Automatic Top Load Washing...",
         "image": "assets/images/products/electronics/e5.png",
         "rating": 4.4,
-        "reviews": 2500,
+        "reviews": 6483,
         "purchased": "1k+ bought in past month",
-        "price": 58990,
+        "price": 17990,
         "discount": 20,
-        "delivery": "FREE delivery by Tue, 17 Sept, 7:00 am - 9:00 pm",
+        "delivery": "FREE delivery by Sat, 14 Sept, 7:00 am - 9:00 pm",
         "brand": "Godrej"
     },
     {
         "id": 6,
         "category": "Electronics",
-        "title": "LG 28 L Convection Microwave Oven",
+        "title": "Samsung 7 kg, 3 star, Fully-Automatic Top Load Washing Machine (WA70A4002GS/TL, Imperial Silver)",
         "image": "assets/images/products/electronics/e6.png",
         "rating": 4.3,
-        "reviews": 922,
-        "purchased": "600+ bought in past month",
-        "price": 13490,
+        "reviews": 5123,
+        "purchased": "1k+ bought in past month",
+        "price": 16590,
         "discount": 21,
         "delivery": "FREE delivery by Sun, 15 Sept, 7:00 am - 9:00 pm",
         "brand": "IFB"
@@ -80,21 +80,81 @@
     {
         "id": 7,
         "category": "Electronics",
-        "title": "Bose Home Theater System",
+        "title": "LG 6.5 Kg 5 Star Inverter Turbodrum Fully Automatic Top Loading Washing Machine (T65SKSF4Z, 3 Smart Motion...",
         "image": "assets/images/products/electronics/e7.png",
         "rating": 4.6,
-        "reviews": 3200,
+        "reviews": 19922,
         "purchased": "2.5k+ bought in past month",
-        "price": 84990,
-        "discount": 22,
-        "delivery": "FREE delivery by Wed, 18 Sept, 7:00 am - 9:00 pm",
-        "brand": "Panasonic"
+        "price": 16490,
+        "discount": 34,
+        "delivery": "FREE delivery by Sun, 15 Sept, 7:00 am - 9:00 pm",
+        "brand": "Samsung"
     },
-
-
-
-
-
+    {
+        "id": 8,
+        "category": "Electronics",
+        "title": "Godrej 6.5 Kg 5 Star I-Wash Technology for Automatic One Touch Wash Fully-Automatic Top Load Washing Machine...",
+        "image": "assets/images/products/electronics/e8.png",
+        "rating": 4.9,
+        "reviews": 1440,
+        "purchased": "800+ bought in past month",
+        "price": 12990,
+        "discount": 27,
+        "delivery": "FREE delivery by Sat, 14 Sept, 7:00 am - 9:00 pm",
+        "brand": "LG"
+    },
+    {
+        "id": 9,
+        "category": "Electronics",
+        "title": "Panasonic 20 L Solo Microwave Oven (NN-SM25JBFDG,Black)",
+        "image": "assets/images/products/electronics/e9.png",
+        "rating": 4.1,
+        "reviews": 13204,
+        "purchased": "300+ bought in past month",
+        "price": 12990,
+        "discount": 46,
+        "delivery": "FREE delivery by Sat, 14 Sept, 7:00 am - 9:00 pm",
+        "brand": "Haier"
+    },
+    {
+        "id": 10,
+        "category": "Electronics",
+        "title": "Samsung 183 L, 4 Star, Digital Inverter, Direct-Cool Single Door Refrigerator (RR20C1824CR/HL, Red,",
+        "image": "assets/images/products/electronics/e10.png",
+        "rating": 4.5,
+        "reviews": 610,
+        "purchased": "100+ bought in past month",
+        "price": 32990,
+        "discount": 30,
+        "delivery": "FREE delivery by Sun, 15 Sept, 7:00 am - 9:00 pm",
+        "brand": "Daikin"
+    },
+    {
+        "id": 11,
+        "category": "Electronics",
+        "title": "LG 7 Kg, 5 Star, Direct Drive Technology, Steam Wash, 6 Motion DD, Smart Diagnosis, Fully-Automatic Front Load",
+        "image": "assets/images/products/electronics/e11.png",
+        "rating": 4.4,
+        "reviews": 922,
+        "purchased": "600+ bought in past month",
+        "price": 16490,
+        "discount": 34,
+        "delivery": "FREE delivery by Sun, 15 Sept, 7:00 am - 9:00 pm",
+        "brand": "Godrej"
+    },
+    {
+        "id": 12,
+        "category": "Electronics",
+        "title": "Whirlpool 184 L 2 Star Direct-Cool Single Door Refrigerator (205 WDE CLS 2S SAPPHIRE BLUE-Z, Blue,2023 Model)",
+        "image": "assets/images/products/electronics/e12.png",
+        "rating": 4.0,
+        "reviews": 25405,
+        "purchased": "1k+ bought in past month",
+        "price": 19990,
+        "discount": 26,
+        "delivery": "FREE delivery by Sat, 14 Sept, 7:00 am - 9:00 pm",
+        "brand": "IFB"
+    },
     {
         "id": 13,
         "category": "Furniture",
