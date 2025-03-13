@@ -1,0 +1,55 @@
+<div class="m-3 p-3 purchaes-card">
+  <h3>
+    <sup>SAR</sup>
+    {{ productData.price }}
+    <sup>14</sup>
+  </h3>
+  <p>SAR96 delivery <span class="fw-bold">6-9 October.</span></p>
+  <p class="test-color-secondary">Details</p>
+  <div
+    class="location-container d-flex align-items-start justify-content-center"
+  >
+    <i class="fa-solid fa-location-dot me-2 fs-3"></i>
+    <p class="ms-1 p-0 fs-6 test-color-secondary">
+      {{ productData.delivery }}
+    </p>
+  </div>
+  <p class="text-danger fw-bolder fs-5">Usually ships within 4 to 5 days</p>
+
+  <select
+    class="form-select bg-body-secondary"
+    aria-label="Default select example"
+  >
+    <option selected>Quantity :1</option>
+    <option value="1">Quantity :2</option>
+    <option value="2">Quantity :3</option>
+    <option value="3">Quantity :4</option>
+  </select>
+
+  <div class="btn-container my-3">
+    <button class="btn btn-warning w-100 rounded-pill p-2 my-2">
+      Add to Cart
+    </button>
+    <button class="btn btn-warning w-100 rounded-pill buy-now-btn">
+      Buy Now
+    </button>
+  </div>
+
+  <div class="d-flex justify-content-between align-items-center my-3">
+    <div class="left p-0 m-0">
+      <p class="fs-5">Ships from</p>
+      <p class="">Sold by</p>
+      <p class="">Payment</p>
+    </div>
+
+    <div class="right p-0 m-0">
+      <p class="fs-5">Monatik LLC</p>
+      <p class="test-color-secondary">Monatik LLC</p>
+      <p class="test-color-secondary">Secure transaction</p>
+    </div>
+  </div>
+
+  <hr />
+
+  <p class="w-100 border border-black rounded-pill my-2 p-2">Add to List</p>
+</div>

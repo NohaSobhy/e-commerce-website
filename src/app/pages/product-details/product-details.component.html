@@ -1,0 +1,115 @@
+@if (productDetails) {
+<div class="container-fluid product-details">
+  <div class="row">
+    <!-- Thumbnail Images -->
+    <div
+      class="display-images d-flex flex-wrap align-items-start flex-column col-12 col-sm-3 col-md-2 col-lg-1 text-center p-0"
+    >
+      <img
+        [src]="productDetails.image"
+        alt=""
+        IsClicled
+        class="img-fluid w-50 w-md-75 my-2"
+      />
+
+      <img
+        [src]="productDetails.image"
+        alt=""
+        IsClicled
+        class="img-fluid w-50 w-md-75 my-2"
+      />
+    </div>
+
+    <!-- Main Product Image -->
+    <div
+      class="col-12 col-sm-9 col-md-4 d-flex justify-content-center align-items-center"
+    >
+      <img
+        [src]="productDetails.image"
+        alt=""
+        class="img-fluid w-75 w-md-100"
+      />
+    </div>
+
+    <!-- Product Details -->
+    <div class="col-12 col-md-6 col-lg-4 p-4">
+      <h4 class="fs-6">Brand: {{ productDetails.brand }}</h4>
+      <p class="fs-4 lead">{{ productDetails.title }}</p>
+
+      <!-- Ratings Section -->
+      <div class="card-rating fs-5">
+        <span>{{ productDetails.rating }}</span>
+        <span *ngFor="let star of getStarsArray(productDetails.rating)">
+          <i class="fas fa-star text-warning" *ngIf="star === 'full'"></i>
+          <i
+            class="fas fa-star-half-alt text-warning"
+            *ngIf="star === 'half'"
+          ></i>
+          <i class="far fa-star" *ngIf="star === 'empty'"></i>
+        </span>
+        <i class="fa-solid fa-angle-down ms-1"></i>
+        <span class="reviews ps-3">
+          <span class="pe-2 text-color">
+            {{ productDetails.reviews }} ratings</span
+          >
+          |
+          <span class="ps-2 text-color">Search this page</span>
+        </span>
+      </div>
+
+      <hr />
+      <h2><sup>SAR</sup> {{ productDetails.price }} <sup>14</sup></h2>
+      <p class="fs-5">All prices include VAT.</p>
+      <p class="fs-6">
+        <span class="text-muted">Sign in to redeem.</span>
+        <span class="mark px-2">Extra {{ productDetails.discount }}%</span>
+        <span class="fw-semibold"> off with meem credit cards. </span>
+      </p>
+      <p class="fs-5 fw-semibold">
+        Enter code MEEM20 at checkout. Discount by Amazon.
+      </p>
+
+      <!-- Icons Section -->
+      <div class="row text-center">
+        <div class="col-4 col-md-3">
+          <i class="fa-solid fa-money-check fs-3"></i>
+          <p class="text-color fs-6">Electronic payment Only</p>
+        </div>
+        <div class="col-4 col-md-3">
+          <i class="fa-solid fa-arrow-rotate-left fs-3"></i>
+          <p class="text-color fs-6">30 days Returnable</p>
+        </div>
+        <div class="col-4 col-md-3">
+          <i class="fa-solid fa-lock fs-3"></i>
+          <p class="text-color fs-6">Secure transaction</p>
+        </div>
+      </div>
+
+      <hr />
+      <h3 class="fw-bolder fs-5">About this item</h3>
+      <ul class="fs-5">
+        <li>
+          Feature: square neck, cutout, puff sleeve, ruffle hem, tie-back A-line
+          dress
+        </li>
+        <li>Fabric has some stretch, and it's soft and comfortable</li>
+        <li>
+          Suitable for daily wear, holidays, dating, vacation, weekend casual
+        </li>
+        <li>Care Instructions: Machine wash or professional dry clean</li>
+      </ul>
+    </div>
+
+    <!-- Purchase Card -->
+    <app-purchaes-card
+      [productData]="productDetails"
+      class="col-12 col-md-6 col-lg-3"
+    ></app-purchaes-card>
+  </div>
+</div>
+}
+
+<hr />
+
+<!-- Comments Section -->
+<app-comments></app-comments>
