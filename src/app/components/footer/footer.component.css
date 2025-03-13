@@ -1,0 +1,12 @@
+.footer{
+    background-color: #232f3e;
+  
+  }
+  img{
+    filter: brightness(0) invert(1);
+  }
+  .Back{
+    background-color: #314052;
+    height: 50px;
+  
+  }

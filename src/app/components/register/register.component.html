@@ -1,0 +1,78 @@
+<div class="body">
+  <nav class="navbar navbar-light bg-transparent justify-content-center">
+    <a class="navbar-brand" href="#">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon">
+  </a>
+  </nav>
+
+<div class="container">
+<div class="registerForm mx-auto py-3">
+  <h3 class="my-1 py-2 ">Create Account</h3>
+  <div *ngIf="error" class="alert alert-danger">{{error}}</div>
+  <form (ngSubmit)="submitRegisterForm(registerForm)" [formGroup]="registerForm" >
+      <label for="first_name">Your name</label>
+      <input formControlName="first_name" type="text" class="form-control input-mine mb-2 ">
+      <div *ngIf="registerForm.get('first_name')?.errors && registerForm.get('first_name')?.touched "
+          class="alert alert-danger">
+          <p class="m-0" *ngIf="registerForm.get('first_name')?.getError('required')">Your name is required</p>
+          <p class="m-0" *ngIf="registerForm.get('first_name')?.getError('minlength')">Your name is minlength is 3
+          </p>
+          <p class="m-0" *ngIf="registerForm.get('first_name')?.getError('maxlength')">Your name is maxlength is 10
+          </p>
+      </div>
+
+
+      <label for="mobile">Mobile Numbers:</label>
+      <input formControlName="mobile" type="number" class="form-control input-mine mb-2 ">
+      <div *ngIf="registerForm.get('mobile')?.errors && registerForm.get('mobile')?.touched" class="alert alert-danger">
+          <p class="m-0" *ngIf="registerForm.get('mobile')?.getError('required')">mobile is required</p>
+      </div>
+
+
+
+      <label for="password">password:</label>
+      <input formControlName="password" type="password" class="form-control input-mine mb-2">
+      <div *ngIf="registerForm.get('password')?.errors && registerForm.get('password')?.touched "
+          class="alert alert-danger">
+          <p class="m-0" *ngIf="registerForm.get('password')?.getError('required')">password is required</p>
+          <p class="m-0" *ngIf="registerForm.get('password')?.getError('pattern')">password is must start with
+              uppercase </p>
+      </div>
+      <button [disabled]="registerForm.invalid" type="submit" class="btn btn-info w-100 px-5 py-2 my-2 ">
+        <span *ngIf="!isLoading">Verify mobile number</span>
+        <i *ngIf="isLoading" class="fas fa-spinner fa-spin"></i>
+
+    </button>
+    <hr class="mx-3 px-4">
+<div class="p-2 m-1">
+  <h6>Buying for work?</h6>
+  <a href="">Create a free business account</a>
+</div>
+<div class="p-2 m-1">
+  <span>Already have an account?</span>
+  <a href="" routerLink="login"> Sign in</a>
+</div>
+<div class="p-2 m-1">
+  <p>By creating an account or logging in , you agree to Amazon’s
+    <a href="">Conditions of Use</a> and <a href="">Privacy Notice.</a>
+  </p>
+</div>
+
+
+  </form>
+
+</div>
+
+
+</div>
+<div class="d-flex justify-content-center align-items-center">
+<footer class="bg-transparent text-center py-3 mt-5 w-50">
+  <div class="d-flex justify-content-center gap-3 mb-2">
+      <a href="" class="text-decoration-none text-primary">Conditions of Use</a>
+      <a href="" class="text-decoration-none text-primary">Privacy Notice</a>
+      <a href="" class="text-decoration-none text-primary">Help</a>
+  </div>
+  <p class="text-secondary m-0">&copy; 1996-2024, Amazon.com, Inc. or its affiliates</p>
+</footer>
+</div>
+
