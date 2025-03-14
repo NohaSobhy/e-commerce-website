@@ -3,6 +3,7 @@ import { ElectronicsComponent } from './pages/products/electronics/electronics.c
 import { FurnitureComponent } from './pages/products/furniture/furniture.component';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
+import { ProductDetailsComponent } from './pages/product-details/product-details.component';
 
 export const routes: Routes = [
     { 
@@ -25,4 +26,10 @@ export const routes: Routes = [
         component: FurnitureComponent,
         title: 'Amazon | Furniture',
     },
+
+    {
+        path : 'product-details/:id', 
+        component: ProductDetailsComponent , 
+        title: 'Amazon | Product-Details'
+    }
 ];

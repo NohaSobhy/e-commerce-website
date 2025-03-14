@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "name" : "Olivia",
+    "image": "https://s3-alpha-sig.figma.com/img/4225/6f1f/02e7985f109b8dbafa652132eda8d971?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=I5~J7bXxg24IXdd7csV-Vi1m3XuY4UjBX5ubMBVdawnRYAbPyWbihH8klwNsWgBa0MxspYCh814sdtJAlMr6qpom40s4FffQBNGScjT0PRhcV4AcE~EKNN092YfAl5O34oGzckavmGgWAijfySL4JvDvsPnhQO9GWRDeFDaeNL-0euwu1ZP34pq2mu~uw8WwXFIl7HIIZm5rRK9RuNPv62Wkg9KDipXUEk1dymArL88LWQWsVtCFjN5NlsNodjEtBkIKRNtdrLvspMwbcoqdV7jigkprXYFEhZcOtnwjT~nHZQV6AWW9GPozr8Yyk0vMjOTCbpqNNU2FrS2V-6o9Hg__",
+    "description": "Terrible experience, will not buy again.",
+    "rating": 1,
+    "special_word": "Unacceptable",
+    "reviewed_at": "Reviewed at Australia on 30 December 2023"
+  },
+  {
+    "id": 2,
+    "name" : "Cristina XD",
+    "image": "https://s3-alpha-sig.figma.com/img/3cec/f9f9/c9e4110243bf4bc0ca587e6f4db2e0d6?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=ba~zleGvOZnkN~YERct0TcTL9v3hxAsm7DihXoOdl4j3qcunoNRwyGMRegT-Z9boLveNmhu3Cdz66LApiS2PQs~5RfRO9-DgjjlBxsW5vukqfHKwYHm-BoXbrRCl-l7qDeL1Jzm3xDeIGzVSETJP7ouEkGSJ567eb7f-7Wo~lianuBlKLo7vincq1Bh0qqEIsu6X~C1TWgJm10XnrmnY4SST2shC2htAjAwNGw9VFigrQQyfC9PTbWEn-hRYMxXqW2TuHDQ1JHtT9bwN~~V41vMsF-SVbeEEh20FRURwpXN6OIXqNamIcgTtcak1~HpIGGXkjNrKzCyNJ6fH1J3Ndw__",
+    "description": "Good quality but took a while to arrive.",
+    "rating": 4,
+    "special_word": "Reliable",
+    "reviewed_at": "Reviewed at Germany on 5 September 2023"
+  },
+  {
+    "id": 3,
+    "name" : "Brooke",
+    "image": "https://s3-alpha-sig.figma.com/img/4595/5d4d/6bec22bf321033b74bf2b84a07561264?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=jYhgCNcm1TDpl7OEHjkzR6U2KmSm2Ou4c-H0aJAUCcUByPlerkHWvBqteESivZRGEfFlyfUSi9NwcZMo52hY1MEOSwQV1NB53gYje5IyLjPP672YLvghEyWLSrw0vqYzsag6Z-G3-1hs~DHOSKONQWvBibDQ4cBLRi73idqEFRsmr-OpYPUL5tkSyWMoYs1WdpmGHO7lB6ckAhSpCIlq86qXQYs6hQ-MEo7utGrDBpOR8MFRj4WQD5jpXYFFEyhsVxWyH5ejuYC9HwpAKV0Bl97iaUBeBzFZjUs~UdSKhQT0yoa6qp0-Uxy6Wjb2P3h7XrxoglPQY6DbXyzA9EvMOQ__",
+    "description": "Decent item, but packaging could be better.",
+    "rating": 3,
+    "special_word": "Moderate",
+    "reviewed_at": "Reviewed at USA on 22 October 2023"
+  },
+  {
+    "id": 4,
+    "name" : "Ana Patricia Rodriguez",
+    "image": "https://s3-alpha-sig.figma.com/img/e6b1/acde/c26cdca821a7481c45297acabc022563?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=eJ49yKucJ0PBM5xM1311lfpn94kfUdd8~cYCFivLIt5a4UcRGKvbMOVhygfoI3RZ1~B~5ZPG0oTIhqSsrWGtZx2XPwGc76o-gLI0QtfXPiU8UR0MKXn3N5xlLCG6bK7kTpYc0NZpoXx3oJjgDxEHTBd1tp1RLiB2bgRwsc3a9ZdS5pvdKHsMNVB-7jz80mGcj6r6emjMTOULX1Vt28fQXe~0RRhf2P~rspLJJRBgB~716cVsS6ntwt-s7NQIefdmcJzBCFPmRyaE9DQ84RorRuCo~1Jr02kT68bNNSSKgOO4z2XU6PtSzm6oJZOgZIC92OheMSQKqUqLnxuMbpKLhA__",
+    "description": "Not satisfied, the item didn't match the description.",
+    "rating": 2,
+    "special_word": "Disappointing",
+    "reviewed_at": "Reviewed at Canada on 11 November 2023"
+  }
+
+]

@@ -1,34 +1,47 @@
 <div class="card">
-    <img [src]="product.image" alt="{{ product.title }}" class="product-image" />
+  <div
+    class="card-content"
+    role="button"
+    [routerLink]="['/product-details', product.id]"
+  >
+    <img
+      [src]="product.image"
+      alt="{{ product.title }}"
+      class="product-image"
+    />
     <div class="card-body">
-        <h5 class="card-title">{{ product.title }}</h5>
+      <h5 class="card-title">{{ product.title }}</h5>
 
-        <div class="card-rating">
-            <span class="mt-1" *ngFor="let star of getStarsArray(product.rating); let i = index">
-                <i class="fas fa-star" *ngIf="star === 'full'"></i>
-                <i class="fas fa-star-half-alt" *ngIf="star === 'half'"></i>
-                <i class="far fa-star" *ngIf="star === 'empty'"></i>
-            </span>
-            <i class="fa-solid fa-angle-down mt-2 ms-1 me-1 text-black"></i>
-            <span class="reviews">{{ product.reviews }}</span>
-            
-        </div>
+      <div class="card-rating">
+        <span
+          class="mt-1"
+          *ngFor="let star of getStarsArray(product.rating); let i = index"
+        >
+          <i class="fas fa-star" *ngIf="star === 'full'"></i>
+          <i class="fas fa-star-half-alt" *ngIf="star === 'half'"></i>
+          <i class="far fa-star" *ngIf="star === 'empty'"></i>
+        </span>
+        <i class="fa-solid fa-angle-down mt-2 ms-1 me-1 text-black"></i>
+        <span class="reviews">{{ product.reviews }}</span>
+      </div>
 
-        <p class="card-purchased">
-            {{ product.purchased }}
-        </p>
+      <p class="card-purchased">
+        {{ product.purchased }}
+      </p>
 
-        <div class="card-price">
-            <span class="final-price">₹{{ product.price }}</span>
-            <span class="discount">({{ product.discount }}% off)</span>
-            <p>Save extra with No Cost EMI</p>
-        </div>
+      <div class="card-price">
+        <span class="final-price">₹{{ product.price }}</span>
+        <span class="discount">({{ product.discount }}% off)</span>
+        <p>Save extra with No Cost EMI</p>
+      </div>
 
-        <p class="card-delivery">
-            <span class="free-delivery">FREE delivery by </span>
-            <strong>{{ product.delivery }}</strong>
-        </p>
-
-        <button class="btn btn-warning">Add to Cart</button>
+      <p class="card-delivery">
+        <span class="free-delivery">FREE delivery by </span>
+        <strong>{{ product.delivery }}</strong>
+      </p>
     </div>
+  </div>
+  <div class="card-footer">
+    <button class="btn btn-warning">Add to Cart</button>
+  </div>
 </div>
